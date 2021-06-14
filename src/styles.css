@@ -2,6 +2,7 @@
 html,
 body {
     height: 100%;
+    font-family: 'Montserrat-thin', sans-serif;
 }
 
 body {
@@ -9,4 +10,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #e2dddb;
+    /* font-family: 'Bungee Shade', cursive;
+    font-family: 'Gafata', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nosifer', cursive;
+    font-family: 'Rock Salt', cursive; */
 }

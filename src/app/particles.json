@@ -2,10 +2,10 @@
   "fpsLimit": 60,
   "particles": {
     "number": {
-      "value": 300,
+      "value": 160,
       "density": {
         "enable": true,
-        "value_area": 500
+        "value_area": 1600
       }
     },
     "color": {
@@ -23,7 +23,7 @@
       "anim": { "enable": true, "speed": 1, "opacity_min": 0, "sync": false }
     },
     "size": {
-      "value": 2,
+      "value": 1.5,
       "random": true,
       "anim": { "enable": false, "speed": 3, "size_min": 0.3, "sync": false }
     },
@@ -51,7 +51,7 @@
   },
 
   "interactivity": {
-    "detect_on": "canvas",
+    "detectOn": "canvas",
     "events": {
       "onhover": {
         "enable": true,

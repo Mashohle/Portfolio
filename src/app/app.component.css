@@ -25,4 +25,5 @@
   padding: 1rem;
   width: 100px;
   border-right: 1px solid #493323;
+  justify-content: flex-end;
 }

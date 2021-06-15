@@ -2,7 +2,7 @@
 html,
 body {
     height: 100%;
-    font-family: 'Montserrat-thin', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
 }
 
 body {
@@ -10,9 +10,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #e2dddb;
-    /* font-family: 'Bungee Shade', cursive;
-    font-family: 'Gafata', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Calistoga', cursive;
+    
     font-family: 'Nosifer', cursive;
-    font-family: 'Rock Salt', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Yatra One', cursive; */
 }

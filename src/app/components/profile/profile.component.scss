@@ -1,8 +1,9 @@
 h1 {
   font-family: "Calistoga" ;
-  font-size: 3.5rem;
-  line-height: 1.5;
+  font-size: 3rem;
+  line-height: 1;
   font-weight: 500;
+  color: #493323;
 }
 
 #tsparticles {
@@ -27,3 +28,24 @@ h1 {
     transform: translate(-50%, -50%);
   }
   
+.margin__intro {
+  margin: 6rem 0;
+  margin-right: 6rem;
+}
+
+.margin__work {
+  margin: 4rem 0;
+  margin-right: 7rem;
+}
+
+.hi {
+  margin: 0;
+  color:rgb(142, 172, 172);
+  font-weight: bold;
+}
+
+.R__work {
+  margin: 0;
+  color:rgb(142, 172, 172);
+  font-weight: bold;
+}

@@ -5,11 +5,11 @@
     </button>
     <div class="collapse navbar-collapse nav__container" id="navbarNavAltMarkup" >
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Profile</a>
-        <a class="nav-item nav-link" href="#">About</a>
-        <a class="nav-item nav-link" href="#">Services</a>
-        <a class="nav-item nav-link" href="#">Resume</a>
-        <a class="nav-item nav-link" href="#">Contact </a>
+        <a class="nav-item nav-link active"  [routerLink]="'/profile'">Profile</a>
+        <a class="nav-item nav-link" [routerLink]="'/about'">About</a>
+        <a class="nav-item nav-link" [routerLink]="'/work'">Services</a>
+        <a class="nav-item nav-link" [routerLink]="'/resume'">Resume</a>
+        <a class="nav-item nav-link" [routerLink]="'/contact'">Contact </a>
       </div>
     </div>
   </nav>

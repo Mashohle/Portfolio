@@ -1,1 +1,41 @@
-<p>contact works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <h1 >Lets have a chat</h1>
+
+        <div class="box">
+            <!-- <h2>Login</h2> -->
+            <form>
+
+                <div class="row">
+                    <div class="col-md-5 inputBox">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="type your name" required/>
+                      </div>
+                      <div class="col-md-4 inputBox">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="type your email" required/>
+                      </div>
+                      <div class="col-md-3 inputBox">
+                        <label class="pb-2" for="subject">Subject</label>
+                        <select class="form-control" id="subject">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                          </select>
+                      </div>
+                </div>
+
+                <div class="row bottom">
+                    <div class="col-md-9 inputBox ">
+                        <label for="message">Message</label>
+                        <input type="text" name="message" id="message" placeholder="type your message here" required/>
+                    </div>
+                    <div class="col-md-3 pt-2 submit__button">
+                        <div class="row"><a class="button" [routerLink]="'/register'">Send Message</a></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

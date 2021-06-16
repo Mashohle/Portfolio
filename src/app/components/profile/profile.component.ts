@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import ParticlesConfig from '../../particles.json'
+
 
 @Component({
   selector: 'app-profile',
@@ -7,8 +7,6 @@ import ParticlesConfig from '../../particles.json'
   styleUrls: ['./profile.component.scss']
 })
 export class ProfileComponent implements OnInit {
-
-  particlesConfig = ParticlesConfig;
 
   constructor() { }
 

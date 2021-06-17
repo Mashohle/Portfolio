@@ -9,10 +9,10 @@
   margin: auto auto;
   padding: 70px;
   width: 70%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -83,6 +83,21 @@ a.button:hover {
 
 .bottom {
     margin-top: 30px;
+}
+
+.title {
+   padding: 1rem;
+   text-align: center;
+}
+
+.top {
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+   padding: 10px;
+   text-align: center;
 }
 // .form-control :hover {
     

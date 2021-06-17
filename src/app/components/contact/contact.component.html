@@ -1,6 +1,11 @@
 <div class="container-fluid">
+    <div class="row top" style="margin-bottom: 70px;">
+        <h1 class="title">Lets have a chat</h1>
+        <iframe src="https://giphy.com/embed/RtSfNhYf9dQrvDkgQZ" width="80" height="80" frameBorder="0" class="giphy-embed among__us" allowFullScreen></iframe>
+        
+    </div>
+
     <div class="row">
-        <h1 >Lets have a chat</h1>
 
         <div class="box">
             <!-- <h2>Login</h2> -->
@@ -18,10 +23,10 @@
                       <div class="col-md-3 inputBox">
                         <label class="pb-2" for="subject">Subject</label>
                         <select class="form-control" id="subject">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
+                            <option></option>
+                            <option>Work proposal</option>
+                            <option>Freelance services</option>
+                            <option>Mentoring</option>
                           </select>
                       </div>
                 </div>
@@ -29,13 +34,23 @@
                 <div class="row bottom">
                     <div class="col-md-9 inputBox ">
                         <label for="message">Message</label>
-                        <input type="text" name="message" id="message" placeholder="type your message here" required/>
+                        <textarea class="form-control" rows="4" name="message" id="message" placeholder="type your message here" required></textarea>
                     </div>
-                    <div class="col-md-3 pt-2 submit__button">
+                    <div class="col-md-3 pt-4 submit__button">
                         <div class="row"><a class="button" [routerLink]="'/register'">Send Message</a></div>
                     </div>
                 </div>
             </form>
         </div>
+    </div>
+
+    <div class="row" style="margin-top: 90px;">
+        <h5 class="footer"><span>710 Berg Avenue, Florouna, 0812</span></h5>
+    </div>
+    <div class="row">
+        <h5 class="footer">mashohle1810@gmail.com</h5>
+    </div>
+    <div class="row">
+        <h5 class="footer"><span>(+27)</span> 82 878 2489</h5>
     </div>
 </div>

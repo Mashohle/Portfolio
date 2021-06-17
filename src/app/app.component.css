@@ -19,12 +19,12 @@
 .pages {
   padding: 1rem;
   width: 100%;
-  margin: auto;
+  margin: 1rem;
 }
 
 .sidebar {
   padding: 1rem;
-  width: 75px;
+  width: 126px;
 }
 
 #tsparticles {

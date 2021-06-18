@@ -8,6 +8,7 @@ h1 {
   
   span {
       color: rgb(142, 172, 172);
+      font-weight: 900;
   }
   
   .title {
@@ -18,4 +19,20 @@ h1 {
   .top {
     justify-content: center;
     margin-bottom: 70px;
+  }
+
+  a {
+    color: #493323;
+  }
+
+  a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: rgb(142, 172, 172);
+    transition: 300ms;
+  }
+
+  .item {
+    padding-top: 10px;
   }

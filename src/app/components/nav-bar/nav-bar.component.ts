@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -9,9 +10,12 @@ export class NavBarComponent implements OnInit {
 
   tab : any = 'profile';
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+    if (this.tab == 'profile') {
+      this.router.navigate(["'/profile'"]);
+    }
   }
 
   // active class for nav bar selected tab
@@ -31,10 +35,10 @@ export class NavBarComponent implements OnInit {
     else if(check==5){
       this.tab = 'contact';
     }
-    else{
-      this.tab = 'profile';
-    }    
-  
-}
+    // else{
+    //   this.tab = 'profile';
+    //   this.router.navigate(["'/profile'"]);
+    // } 
+  }
 
 }

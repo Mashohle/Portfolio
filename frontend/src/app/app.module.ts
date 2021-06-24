@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { HttpClientModule } from '@angular/common/http';
+
 import { AppComponent } from './app.component';
 import { WorkComponent } from './components/work/work.component';
 import { AboutComponent } from './components/about/about.component';
@@ -27,7 +29,8 @@ import { NgParticlesModule } from 'ng-particles';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgParticlesModule
+    NgParticlesModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]

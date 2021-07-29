@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators} from '@angular/forms';
 import { ContactService } from '../../services/contact/contact.service';
 
 @Component({
@@ -9,25 +8,17 @@ import { ContactService } from '../../services/contact/contact.service';
 })
 export class ContactComponent implements OnInit {
 
-  contactForm : FormGroup;
   messageSent : boolean = false;
+  userMail : any = [];
 
   constructor(
-    private formBuilder: FormBuilder,
     private contactService : ContactService
   ) { }
 
-  ngOnInit(): void {
-    this.contactForm = this.formBuilder.group({
-      name : ['', Validators.required],
-      email : ['', Validators.required],
-      subject : ['', Validators.required],
-      message : ['', Validators.required],
-    });
-  }
+  ngOnInit(): void { }
 
   // Post Request tp send email
-  sendUserMessage(userMail : Object) {
+  sendUserMessage(userMail) {
     this.contactService.sendMail(userMail).subscribe(res => {
       console.log("Successfully sent message to Mashohle!", res);
     });
@@ -36,14 +27,16 @@ export class ContactComponent implements OnInit {
   contact() {
     this.messageSent = true;
 
-    if(this.contactForm.invalid) {
-      return console.log("Please try resending the message again!");
+    let userMail = {
+      name: (<HTMLInputElement>document.getElementById('name')).value,
+      email: (<HTMLInputElement>document.getElementById('email')).value,
+      subject: (<HTMLInputElement>document.getElementById('subject')).value,
+      message: (<HTMLInputElement>document.getElementById('message')).value
     }
-
-    // Proceeds to send email if the form is properly filled
-    this.sendUserMessage(this.contactForm.value);
-    this.contactForm.reset();
-    this.messageSent = false;
+    
+    console.log(userMail);
+    this.sendUserMessage(userMail);
+    
   }
 
 }

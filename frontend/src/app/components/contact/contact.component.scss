@@ -53,24 +53,33 @@ a.button {
   background: rgb(96, 134, 134);
   font-size: 11px;
   border: solid 1px;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #e2dddb;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
   padding: 10px 20px;
   letter-spacing: 4px;
   outline: none;
   text-transform: uppercase;
   text-decoration: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease 0s;
   margin: auto;
   display: inline-block;
+  text-align: center;
+  background-position: center;
+  // transition: background 0.8s;
 }
 
 .box input[type="submit"]:hover,
 .box button[type="submit"]:hover,
 a.button:hover {
-  opacity: 0.8;
+  background: rgb(69, 170, 170);
+  transform: translateY(-1px);
+  box-shadow: 0px 15px 20px rgba(69, 170, 170, 0.2);
+  // background: rgb(69, 170, 170) radial-gradient(circle, transparent 1%, rgb(69, 170, 170) 1%) center/15000%;
 }
+
 
 .form-control {
     background-color: #493323;

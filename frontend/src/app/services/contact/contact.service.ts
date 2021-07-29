@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ContactService {
 
-  private url = "http://localhost:3000/sendmail";
+  private url = 'http://localhost:3000/sendmail';
   constructor(private http : HttpClient) { }
 
   sendMail(user : object) {

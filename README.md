@@ -51,6 +51,8 @@ Use the `BLANK_README.md` to get started.
 List of tools used to bootstrap the project.
 
 * [Angular](https://angular.io/)
+* [Express](https://expressjs.com/)
+* [NodeJs](https://nodejs.org/en/)
 * [Node-Mailer](https://nodemailer.com/about/)
 
 

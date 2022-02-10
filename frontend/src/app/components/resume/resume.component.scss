@@ -7,8 +7,8 @@ h1 {
 }
 
 span {
-    color: rgb(142, 172, 172);
-    font-weight: 900;
+  color: rgb(142, 172, 172);
+  font-weight: 900;
 }
 
 .title {
@@ -17,9 +17,9 @@ span {
 }
 
 .org {
-    color: rgb(142, 172, 172);
-    font-size: 13px;
-    padding-top: 4px;
+  color: rgb(142, 172, 172);
+  font-size: 13px;
+  padding-top: 4px;
 }
 
 .top {
@@ -34,4 +34,8 @@ span {
 p {
   padding: 0;
   margin: 0;
+}
+
+.item {
+  margin-top: 10px;
 }

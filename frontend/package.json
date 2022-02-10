@@ -1,16 +1,16 @@
 {
-  "name": "angular-auth-template",
+  "name": "frontend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:gh-pages": "ng build --prod --base-href \"https://tsparticles.github.io/angular-auth-template/\"",
+    "build:gh-pages": "ng build --prod --base-href \"https://tsparticles.github.io/frontend/\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "predeploy": "npm run build:gh-pages",
-    "deploy": "gh-pages -d dist/angular-auth-template"
+    "deploy": "gh-pages -d dist/frontend"
   },
   "private": true,
   "dependencies": {
